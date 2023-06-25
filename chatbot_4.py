@@ -2,7 +2,7 @@ import openai
 import gradio
 import PyPDF2
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def process_pdf(pdf_content):
     pdf_file = PyPDF2.PdfFileReader(pdf_content)
